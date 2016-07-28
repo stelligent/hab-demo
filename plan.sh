@@ -10,7 +10,6 @@ pkg_shasum=b54f8ada292b0249245385996221751f571e170162e0d464a26b958478cc9bfa
 pkg_filename="${pkg_name}"-"${pkg_version}".tar.gz
 pkg_deps=(core/node)
 pkg_expose=(8080)
-pkg_prefix=""
 
 
 do_build() {
